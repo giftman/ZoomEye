@@ -66,8 +66,8 @@ class ZoomEyeSearchView extends Component {
     }
 
     componentDidMount() {
-        // this.props.actions.getUser();
-        this.props.actions.login("1556138063@qq.com","test1001");
+         this.props.actions.getUser();
+        //this.props.actions.login("1556138063@qq.com","test1001");
     }
 
     onSearchTextChanged(event) {
